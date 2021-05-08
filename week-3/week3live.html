@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="jsdemo"></p>
+
+        <script>
+            function myFunction(x,y){
+                if(y === undefined){
+                    y=2;
+                }
+                return x*y;
+            }
+            document.getElementById("jsdemo").innerHTML = myFunction(4)
+        </script>
+    </body>
+</html>
